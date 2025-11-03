@@ -1,6 +1,8 @@
-# Circomkit with Bun
+# ZK Circuits Starter
 
-In this example, we use [Bun](https://bun.sh/) with the [SHA256](https://en.wikipedia.org/wiki/SHA-2) circuit.
+## Project Description
+
+This project serves as a development and testing ground for Circom-based zero-knowledge circuits. It is specifically configured for the `groth16` proving system on the `bn128` curve. The primary focus of this project is to facilitate rapid prototyping and iteration of ZK circuits.
 
 ## Installation
 
@@ -37,7 +39,6 @@ Run tests with:
 bun test
 ```
 
-
-
 # References
+
 - [Circom kit: A testing and development environment for Circom](https://github.com/erhant/circomkit)
