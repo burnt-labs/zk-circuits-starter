@@ -25,6 +25,7 @@ For the CLI, you can test the entire flow as follows:
 3. Verify the proof: `bunx circomkit verify sha256_32 default`
 4. Create contract: `bunx circomkit contract sha256_32`
 5. Create calldata: `bunx circomkit calldata sha256_32 default`
+6. Circuit specific setup `bunx circomkit setup <circuit> [ptau-path]`
 
 Notice that we use `bunx` instead of `npx` to use Bun!
 
@@ -35,3 +36,8 @@ Run tests with:
 ```sh
 bun test
 ```
+
+
+
+# References
+- [Circom kit: A testing and development environment for Circom](https://github.com/erhant/circomkit)
