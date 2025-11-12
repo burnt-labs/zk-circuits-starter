@@ -5,5 +5,12 @@
     "params": [
       32
     ]
+  },
+  "shuffle_encrypt_52": {
+    "file": "shuffle_encrypt",
+    "template": "ShuffleEncryptV2",
+    "params": [
+      52
+    ]
   }
 }
