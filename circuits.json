@@ -12,5 +12,13 @@
     "params": [
       52
     ]
+  },
+  "matrix": {
+    "file": "matrix",
+    "template": "matrixMultiplication",
+    "params": [
+      2,
+      3
+    ]
   }
 }

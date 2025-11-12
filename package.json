@@ -5,6 +5,7 @@
     "test": "bun test"
   },
   "dependencies": {
+    "@types/circomlibjs": "^0.1.6",
     "@zk-shuffle/proof": "^1.0.1",
     "circomkit": "^0.3.4",
     "circomlib": "^2.0.5",
