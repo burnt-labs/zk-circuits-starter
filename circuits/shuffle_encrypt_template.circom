@@ -58,10 +58,10 @@ template ShuffleEncryptTemplate(base, numCards, numBits) {
 template ShuffleEncryptV2Template(base, numCards, numBits) {
     assert(numCards <= 253);
     signal input pk[2];                 // group element on inner curve
-    signal input UX0[numCards];         // numCards x-coordinates of group elements on inner curve
-    signal input UX1[numCards];         // numCards x-coordinates of group elements on inner curve
-    signal input VX0[numCards];         // numCards x-coordinates of group elements on inner curve
-    signal input VX1[numCards];         // numCards x-coordinates of group elements on inner curve
+    signal input UX0[numCards];         
+    signal input UX1[numCards];         
+    signal input VX0[numCards];         
+    signal input VX1[numCards];         
     signal input UDelta0[numCards];     // numCards base field elements on inner curve
     signal input UDelta1[numCards];     // numCards base field elements on inner curve
     signal input VDelta0[numCards];     // numCards base field elements on inner curve
