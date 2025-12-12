@@ -56,7 +56,7 @@
     "file": "shuffle_encrypt",
     "template": "ShuffleEncryptV2",
     "params": [
-      5
+      52
     ]
   }
 }

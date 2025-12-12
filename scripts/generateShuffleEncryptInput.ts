@@ -3,7 +3,7 @@ import * as fs from "fs";
 const { Scalar } = require("ffjavascript");
 
 // --- Configuration ---
-const NUM_CARDS = 5; // Must match your circuit template parameter
+const NUM_CARDS = 52; // Must match your circuit template parameter
 const OUTPUT_FILE = "inputs/ShuffleEncryptV2/default.json";
 
 async function generateInput() {
