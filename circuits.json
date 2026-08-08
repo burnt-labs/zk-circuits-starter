@@ -1,9 +1,62 @@
 {
+  "babyjubjub": {
+    "file": "babyjubjub",
+    "template": "ecDecompress",
+    "params": []
+  },
   "sha256_32": {
     "file": "sha256",
     "template": "Sha256Bytes",
     "params": [
       32
+    ]
+  },
+  "shuffle_encrypt_52": {
+    "file": "shuffle_encrypt",
+    "template": "ShuffleEncryptV2",
+    "params": [
+      52
+    ]
+  },
+  "matrix": {
+    "file": "matrix",
+    "template": "matrixMultiplication",
+    "params": [
+      2,
+      3
+    ]
+  },
+  "elgamal": {
+    "file": "elgamal",
+    "template": "ElGamalEncrypt",
+    "params": [
+      251,
+      "[5299619240641551281634865583518297030282874472190772894086521144482721001553,16950150798460657717958625567821834550301663161624707787222815936182638968203]"
+    ]
+  },
+  "ElgamalDecrypt": {
+    "file": "elgamal",
+    "template": "ElGamalDecrypt",
+    "params": [
+      251
+    ]
+  },
+  "Decrypt": {
+    "file": "decrypt",
+    "template": "Decrypt"
+  },
+  "permutation": {
+    "file": "permutation",
+    "template": "Permutation",
+    "params": [
+      5
+    ]
+  },
+  "ShuffleEncryptV2": {
+    "file": "shuffle_encrypt",
+    "template": "ShuffleEncryptV2",
+    "params": [
+      52
     ]
   }
 }

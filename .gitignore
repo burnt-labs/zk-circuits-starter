@@ -117,6 +117,7 @@ tmp.ptau
 # is this still a thing lol
 .DS_Store
 
+target
 # ignore auto generated test circuits
 circuits/test
 ptau

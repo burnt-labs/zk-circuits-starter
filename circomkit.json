@@ -1,6 +1,14 @@
 {
-  "version": "2.1.2",
+  "version": "2.0.0",
   "protocol": "groth16",
   "curve": "bn128",
-  "verbose": true
+  "verbose": true,
+  "circuits": "./circuits.json",
+  "dirPtau": "./ptau",
+  "dirCircuits": "./circuits",
+  "dirInputs": "./inputs",
+  "dirBuild": "./build",
+  "optimization": 2,
+  "inspect": true,
+  "logLevel": "INFO"
 }

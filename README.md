@@ -28,6 +28,9 @@ For the CLI, you can test the entire flow as follows:
 4. Create contract: `bunx circomkit contract sha256_32`
 5. Create calldata: `bunx circomkit calldata sha256_32 default`
 6. Circuit specific setup `bunx circomkit setup <circuit> [ptau-path]`
+7. Generate Witness `bunx circomkit witness <circuit> <input>`
+8. Create vkey `bunx circomkit vkey <circuit>`
+9. Generate verification key json file(snarkjs zkey export verificationkey multiplier2_0001.zkey verification_key.json)
 
 Notice that we use `bunx` instead of `npx` to use Bun!
 
