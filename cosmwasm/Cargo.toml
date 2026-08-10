@@ -26,8 +26,6 @@ panic = 'abort'
 rpath = false
 
 [features]
-# for more explicit tests, cargo test --features=backtraces
-backtraces = ["cosmwasm-std/backtraces"]
 # use library feature to disable all instantiate/execute/query exports
 library = []
 
@@ -39,14 +37,14 @@ optimize = """docker run --rm -v "$(pwd)":/code \
 """
 
 [dependencies]
-cosmwasm-schema = "1.3.1"
-cosmwasm-std = "1.3.1"
-cw-storage-plus = "1.1.0"
-cw2 = "1.1.0"
+cosmwasm-schema = "2.2.2"
+cosmwasm-std = "2.2.2"
+cw-storage-plus = "2.0.0"
+cw2 = "2.0.0"
 once_cell = "1.18.0"
 schemars = "0.8.12"
 serde = { version = "1.0.195", default-features = false, features = ["derive"] }
 thiserror = "1.0.50"
 
 [dev-dependencies]
-cw-multi-test = "0.17.0"
+cw-multi-test = "2.2.0"
